@@ -1,0 +1,11 @@
+Get-HotFix | sort -property InstalledOn | Format-Table -property HotfixId, InstalledOn, description
+
+HotfixId  InstalledOn           description
+--------  -----------           -----------
+KB4338832 8/2/2018 12:00:00 AM  Security Update
+KB4230204 8/2/2018 12:00:00 AM  Update
+KB4343902 8/15/2018 12:00:00 AM Security Update
+KB4343669 8/15/2018 12:00:00 AM Update
+KB4457146 9/12/2018 12:00:00 AM Security Update
+KB4456655 9/12/2018 12:00:00 AM Update
+KB4457128 9/14/2018 12:00:00 AM Security Update
